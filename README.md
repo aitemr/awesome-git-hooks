@@ -17,8 +17,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Table of Contents
 
-- [pre-commit]()
-- [prepare-commit-msg]()
+- [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
+- [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
 
 ## Support
 
