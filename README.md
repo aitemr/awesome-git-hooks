@@ -22,7 +22,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/design-patterns/issues/new) 
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
 
 ## License
 
