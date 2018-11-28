@@ -8,7 +8,7 @@ Called after receiving the default commit message, just prior to firing up the c
 git commit
 ```
 
-## Awesome prepare-commit-msg git hooks for:
+## prepare-commit-msg git hooks for:
 
 * [Jira](https://github.com/aitemr/awesome-git-hooks/blob/master/prepare-commit-msg/prepare-commit-msg-jira) - a proprietary issue tracking product developed by Atlassian 
 

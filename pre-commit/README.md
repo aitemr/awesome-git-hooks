@@ -8,7 +8,7 @@ This hook is called before obtaining the proposed commit message. Exiting with a
 git commit
 ```
 
-## Awesome pre commit git hooks for:
+## pre commit git hooks for:
 
 * [SwiftLint](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-commit/pre-commit-swiftlint) - a tool to enforce Swift style and conventions
 
