@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# Hook скрипт для commit message.
-# Добавляет в начало Вашего commit message `JIRA_TASK_ID`, исходя из префикса текущей ветки `feature/krishaKz/KRIA-562-add-linter`
-# Пример: `Добавил SwiftLint`` -> `KRIA-562 Добавил SwiftLint``
+# Git Hook for JIRA_TASK_ID
+# Adds to the top of your commit message `JIRA_TASK_ID`, based on the prefix of the current branch` feature / AWG-562-add-linter`
+# Example: `Add SwiftLint`` ->` AWG-562 Add by SwiftLint``
 
 if [ -z "$BRANCHES_TO_SKIP" ]; then
   BRANCHES_TO_SKIP=(master develop test)
