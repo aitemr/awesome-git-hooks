@@ -1,4 +1,4 @@
-## pre commit 
+## `pre commit` 
 
 This hook is called before obtaining the proposed commit message. Exiting with anything other than zero will abort the commit. It is used to check the commit itself (rather than the message).
 
@@ -7,6 +7,10 @@ This hook is called before obtaining the proposed commit message. Exiting with a
 ```bash
 git commit
 ```
+
+## Awesome `pre commit` git hooks for:
+
+* [SwiftLint](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-commit/pre-commit-swiftlint) - a tool to enforce Swift style and conventions
 
 ## Support
 
