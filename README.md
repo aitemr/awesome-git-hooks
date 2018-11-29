@@ -18,7 +18,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Git Hooks
 
-Git hooks are scripts that run automatically every time a particular event occurs in a Git repository.
+[Git hooks](https://git-scm.com/docs/githooks) are scripts that run automatically every time a particular event occurs in a Git repository.
 
 - [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
 - [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
