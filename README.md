@@ -42,10 +42,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [post-rewrite]()
 
 
-## Tools
+## Git Hooks Runner tools
 
-- [Husky](https://github.com/typicode/husky)
-- [Komondor](https://github.com/orta/Komondor)
+- [Husky](https://github.com/typicode/husky) - 🐶 Git hooks made easy
+- [Komondor](https://github.com/orta/Komondor) - 🐩 Git Hooks for Swift projects 
 
 ## Support
 
