@@ -23,6 +23,30 @@ Git hooks are scripts that run automatically every time a particular event occur
 - [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
 - [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
 
+## Soon...
+
+- [applypatch-msg]()
+- [pre-applypatch]()
+- [post-applypatch]()
+- [commit-msg]()
+- [post-commit]()
+- [pre-rebase]()
+- [post-checkout]()
+- [post-merge]()
+- [pre-push]()
+- [pre-receive]()
+- [update]()
+- [post-receive]()
+- [post-update]()
+- [pre-auto-gc]()
+- [post-rewrite]()
+
+
+## Tools
+
+- [Husky](https://github.com/typicode/husky)
+- [Komondor](https://github.com/orta/Komondor)
+
 ## Support
 
 If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
