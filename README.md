@@ -23,7 +23,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
 - [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
 
-## Soon...
+## Soon... 🙈
 
 - [applypatch-msg]()
 - [pre-applypatch]()
@@ -41,11 +41,14 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-auto-gc]()
 - [post-rewrite]()
 
-
-## Git Hooks Runner tools
+## Git Hooks automation tools
 
 - [Husky](https://github.com/typicode/husky) - 🐶 Git hooks made easy
 - [Komondor](https://github.com/orta/Komondor) - 🐩 Git Hooks for Swift projects 
+
+## Articles
+
+- [Official Documentation](https://git-scm.com/docs/githooks)
 
 ## Support
 
