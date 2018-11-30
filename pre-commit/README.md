@@ -2,7 +2,7 @@
 
 This hook is called before obtaining the proposed commit message. Exiting with anything other than zero will abort the commit. It is used to check the commit itself (rather than the message).
 
-## Invoked by 
+## invoked by 
 
 ```bash
 git commit
@@ -12,11 +12,11 @@ git commit
 
 * [SwiftLint](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-commit/pre-commit-swiftlint) - a tool to enforce Swift style and conventions
 
-## Support
+## support
 
 If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
 
-## License
+## license
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
