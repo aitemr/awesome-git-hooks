@@ -49,6 +49,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ## Articles
 
 - [Official Documentation](https://git-scm.com/docs/githooks)
+- [Atlassian Git Hooks tutorial](https://ru.atlassian.com/git/tutorials/git-hooks)
+- [How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
 
 ## Support
 
@@ -56,4 +58,6 @@ If you have a question, find a bug, or just want to say hi, please open an [issu
 
 ## License
 
-[MIT License](./LICENSE) © Islam Temirbek
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Islam Temirbek](https://aitemr.github.io) has waived all copyright and related or neighboring rights to this work.

@@ -18,4 +18,6 @@ If you have a question, find a bug, or just want to say hi, please open an [issu
 
 ## License
 
-[MIT License](../LICENSE) © Islam Temirbek
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Islam Temirbek](https://aitemr.github.io) has waived all copyright and related or neighboring rights to this work.
