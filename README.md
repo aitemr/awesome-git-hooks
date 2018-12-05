@@ -8,11 +8,9 @@
     <a href="https://t.me/aitemr"><img alt="@aitemr" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
 </p>
 
-
 ## About
 
 A curated list of awesome Git Hooks. If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/CONTRIBUTING.md).
-
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -23,13 +21,13 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
 - [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
 - [pre-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-receive)
+- [commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/commit-msg)
 
 ## Soon... 🙈
 
 - [applypatch-msg]()
 - [pre-applypatch]()
 - [post-applypatch]()
-- [commit-msg]()
 - [post-commit]()
 - [pre-rebase]()
 - [post-checkout]()
