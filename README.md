@@ -49,6 +49,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [Official Documentation](https://git-scm.com/docs/githooks)
 - [Atlassian Git Hooks tutorial](https://ru.atlassian.com/git/tutorials/git-hooks)
 - [How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
+- [Automate your workflow with git hooks
+](https://medium.com/backticks-tildes/how-to-automate-your-git-workflow-with-git-hooks-c905296c49bc)
 
 ## Support
 
