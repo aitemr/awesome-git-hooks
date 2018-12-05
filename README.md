@@ -39,7 +39,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-auto-gc]()
 - [post-rewrite]()
 
-## Git Hooks automation tools
+## Tools
 
 - [Husky](https://github.com/typicode/husky) - 🐶 Git hooks made easy
 - [Komondor](https://github.com/orta/Komondor) - 🐩 Git Hooks for Swift projects 
