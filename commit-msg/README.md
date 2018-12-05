@@ -8,10 +8,10 @@ Can be used to adjust the message after it has been edited in order to ensure co
 git commit
 ```
 
-## pre commit git hooks for:
+## commit-msg git hooks for:
 
-* [commit-msg-jira](https://github.com/aitemr/awesome-git-hooks/blob/master/commit-msg/commit-msg-jira) - to validate for jira issue or the word merge
-
+* [commit-msg-jira](https://github.com/aitemr/awesome-git-hooks/blob/master/commit-msg/commit-msg-jira) - hook to validate for jira issue or the word merge
+ 
 ## support
 
 If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
