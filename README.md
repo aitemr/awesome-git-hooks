@@ -22,6 +22,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
 - [pre-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-receive)
 - [commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/commit-msg)
+- [pre-push](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-push)
 
 ## Soon... 🙈
 
@@ -32,7 +33,6 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-rebase]()
 - [post-checkout]()
 - [post-merge]()
-- [pre-push]()
 - [update]()
 - [post-receive]()
 - [post-update]()
