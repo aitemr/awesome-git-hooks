@@ -10,7 +10,7 @@ git push
 
 ## pre push git hooks for:
 
-* [SwiftLint](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-push/pre-push-protect-branches) - Git pre-push hook to prevent force pushing master branch
+* [pre-push](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-push/pre-push-protect-branches) - Git pre-push hook to prevent force pushing master branch
 
 ## support
 
