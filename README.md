@@ -43,6 +43,9 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 - [Husky](https://github.com/typicode/husky) - 🐶 Git hooks made easy
 - [Komondor](https://github.com/orta/Komondor) - 🐩 Git Hooks for Swift projects 
+- [Quickhook](https://github.com/dirk/quickhook/) - Faster Git hook (pre-commit, etc.) runner
+- [git-hooks](https://github.com/icefox/git-hooks/) - A tool to manage project, user, and global Git hooks
+- [overcommit](https://github.com/brigade/overcommit/) - A fully configurable and extendable Git hook manager
 
 ## Articles
 
