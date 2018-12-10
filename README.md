@@ -49,6 +49,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Articles
 
+- [githooks.com](https://githooks.com)
 - [Official Documentation](https://git-scm.com/docs/githooks)
 - [Atlassian Git Hooks tutorial](https://ru.atlassian.com/git/tutorials/git-hooks)
 - [How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
