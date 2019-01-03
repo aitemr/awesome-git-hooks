@@ -8,6 +8,14 @@
     <a href="https://t.me/aitemr"><img alt="@aitemr" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
 </p>
 
+## Contents
+
+- [About](#about)
+- [Git Hooks](#git-hooks)
+- [Tools](#tools)
+- [Articles](#articles)
+- [Support](#support)
+
 ## About
 
 A curated list of awesome Git Hooks. If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/CONTRIBUTING.md).
