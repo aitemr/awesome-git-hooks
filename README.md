@@ -1,15 +1,13 @@
 ## Awesome Git Hooks  
 
-<p align="center">
-    <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
-    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
-    <a href="https://t.me/aitemr"><img alt="@aitemr" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
-</p>
+<img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
+<img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+<a href="https://t.me/aitemr"><img alt="@aitemr" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
 
 ## Contents
 
 - [About](#about)
-- [Git Hooks](#git-hooks)
+- [Useful Git Hooks scripts](#useful-git-hooks-scripts)
 - [Tools](#tools)
 - [Articles](#articles)
 - [Support](#support)
@@ -22,7 +20,7 @@ If you want to contribute, please read the [guide](https://github.com/aitemr/awe
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
-## Git Hooks
+## Useful Git Hooks scripts
 
 - [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
 - [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
@@ -30,7 +28,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/commit-msg)
 - [pre-push](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-push)
 
-## Soon... 🙈
+## Soon 🙈
 
 - [applypatch-msg]()
 - [pre-applypatch]()
