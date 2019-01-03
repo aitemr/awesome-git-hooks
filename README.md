@@ -1,8 +1,8 @@
 ## Awesome Git Hooks  
 
-<img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" />
-<img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
-<a href="https://t.me/aitemr"><img alt="@aitemr" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
+[![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#)
+[![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
 
 ## Contents
 
