@@ -4,14 +4,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#)
 [![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
 
-> A curated list about Git Hooks
+> A curated list of awesome [Git hooks](https://git-scm.com/docs/githooks)
 
 ## About
 
-A curated list of awesome [Git hooks](https://git-scm.com/docs/githooks). Git Hooks are scripts that run automatically every time a particular event occurs in a git repository.
-
-If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/CONTRIBUTING.md).
-
+Git Hooks are scripts that run automatically every time a particular event occurs in a git repository.
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Contents
@@ -63,7 +60,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new). If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/CONTRIBUTING.md).
 
 ## License
 
