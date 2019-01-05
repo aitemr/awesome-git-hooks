@@ -4,13 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#)
 [![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
 
-## Contents
-
-- [About](#about)
-- [Useful Git Hooks scripts](#useful-git-hooks-scripts)
-- [Tools](#tools)
-- [Articles](#articles)
-- [Support](#support)
+> A curated list about Git Hooks
 
 ## About
 
@@ -19,6 +13,13 @@ A curated list of awesome [Git hooks](https://git-scm.com/docs/githooks). Git Ho
 If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/CONTRIBUTING.md).
 
 Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
+
+## Contents
+
+- [Useful Git Hooks scripts](#useful-git-hooks-scripts)
+- [Tools](#tools)
+- [Articles](#articles)
+- [Support](#support)
 
 ## Useful Git Hooks scripts
 
