@@ -11,9 +11,16 @@ fi
 COMMIT_FILE=$1
 COMMIT_MSG=$(cat $1)
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-JIRA_ID=$(echo "$CURRENT_BRANCH" | grep -Eo "[A-Z0-9]{1,10}-?[A-Z0-9]+-\d+")
+JIRA_ID_REGEX="[A-Z0-9]{1,10}-?[A-Z0-9]+"
+JIRA_ID_IN_CURRENT_BRANCH_NAME=$(echo "$CURRENT_BRANCH" | grep -Eo "$JIRA_ID_REGEX")
+JIRA_ID_IN_COMMIT_MESSAGE=$(echo "$COMMIT_MSG" | grep -Eo "$JIRA_ID_REGEX")
 
-if [ ! -z "$JIRA_ID" ]; then
-    echo "$JIRA_ID $COMMIT_MSG" > $COMMIT_FILE
-    echo "JIRA ID '$JIRA_ID', matched in current branch name, prepended to commit message. (Use --no-verify to skip)"
+if [ ! -z "$JIRA_ID_IN_COMMIT_MESSAGE" ]; then
+  if [ "$JIRA_ID_IN_COMMIT_MESSAGE" != "$JIRA_ID_IN_CURRENT_BRANCH_NAME" ]; then
+    echo "Error, your commit message JIRA_TASK_ID='$JIRA_ID_IN_COMMIT_MESSAGE' is not equal to current branch JIRA_TASK_ID='$JIRA_ID_IN_CURRENT_BRANCH_NAME'"
+    exit 1
+  fi
+elif [ ! -z "$JIRA_ID_IN_CURRENT_BRANCH_NAME" ]; then
+  echo "$JIRA_ID_IN_CURRENT_BRANCH_NAME $COMMIT_MSG" > $COMMIT_FILE
+  echo "JIRA ID '$JIRA_ID_IN_CURRENT_BRANCH_NAME', matched in current branch name, prepended to commit message. (Use --no-verify to skip)"
 fi
