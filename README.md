@@ -28,10 +28,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-push](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-push)
 - [pre-auto-gc](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-auto-gc)
 - [pre-rebase](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-rebase)
+- [applypatch-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/applypatch-msg)
 
 ## Soon 🙈
 
-- [applypatch-msg]()
 - [pre-applypatch]()
 - [post-applypatch]()
 - [post-commit]()
