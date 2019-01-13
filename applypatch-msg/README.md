@@ -10,7 +10,7 @@ git am
 
 ## applypatch-msg git hooks for:
 
-* [applypatch-msg-check-log-message](https://github.com/aitemr/awesome-git-hooks/blob/master/applypatch-msg/applypatch-msg-check-log-messaget) - check the commit log message taken by applypatch from an e-mail message.
+* [applypatch-msg-check-log-message](https://github.com/aitemr/awesome-git-hooks/blob/master/applypatch-msg/applypatch-msg-check-log-message) - check the commit log message taken by applypatch from an e-mail message.
 
 ## support
 
