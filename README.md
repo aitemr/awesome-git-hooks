@@ -29,6 +29,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pre-auto-gc](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-auto-gc)
 - [pre-rebase](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-rebase)
 - [applypatch-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/applypatch-msg)
+- [post-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/post-receive)
 
 ## Soon 🙈
 
@@ -38,7 +39,6 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [post-checkout]()
 - [post-merge]()
 - [update]()
-- [post-receive]()
 - [post-update]()
 - [post-rewrite]()
 
