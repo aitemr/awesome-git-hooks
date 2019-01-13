@@ -1,0 +1,36 @@
+#!/bin/bash
+# Git "post-rewrite" hook to make local refs move automatically on rewrites.
+set -e -u
+command="$1"
+
+# On rebase, update-ref from ORIG_HEAD to new HEAD is done after this
+# hook ran. Updating it in this hook causes error due to mismatch of the
+# old hash. (The final update-ref uses 3 args form.)
+rebasing=''
+if [ "$command" = 'rebase' ]; then
+  rebasing=$(git rev-parse ORIG_HEAD)
+fi
+
+handle_rewrite() {
+  old="$1"
+  new="$2"
+  shift; shift;
+  if [ "$old" != "$rebasing" ]; then
+    what="$command"
+    if [ $# -gt 0 ]; then
+      what="$command($*)"
+    fi
+    for ref in $(git show-ref --heads | sed -n "s/^$old //p"); do
+      git update-ref -m "post-rewrite: $what" "$ref" "$new" "$old"
+      short_ref=$(git rev-parse --abbrev-ref "$ref")
+      short_old=$(git rev-parse --short "$old")
+      short_new=$(git rev-parse --short "$new")
+      echo "post-rewrite: update-ref $short_ref $short_new (was: $short_old)"
+    done
+  fi
+}
+while read line; do handle_rewrite $line; done
+
+# TODO:
+#   Print recommended rebase commands for each branch found by
+#   "git branch --contains <old>" as "git rebase <old> ref --onto <new>".
