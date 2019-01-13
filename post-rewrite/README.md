@@ -9,7 +9,7 @@ git commit --amend
 git-rebase
 ```
 
-## post-rewrite git hooks for:
+## post-rewrite git h ooks for:
 
 * [post-rewrite-move-refs](https://github.com/aitemr/awesome-git-hooks/blob/master/post-rewrite/post-rewrite-move-refs) - hook to make local refs move automatically on rewrites.
  
