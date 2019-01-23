@@ -19,26 +19,26 @@ Git Hooks are scripts that run automatically every time a particular event occur
 
 ## Useful Git Hooks scripts
 
-- [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit)
-- [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg)
-- [pre-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-receive)
-- [commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/commit-msg)
-- [pre-push](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-push)
-- [pre-auto-gc](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-auto-gc)
-- [pre-rebase](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-rebase)
-- [applypatch-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/applypatch-msg)
-- [post-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/post-receive)
-- [post-rewrite](https://github.com/aitemr/awesome-git-hooks/tree/master/post-rewrite)
+- [pre-commit](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-commit) - This hook is called before obtaining the proposed commit message.
+- [prepare-commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/prepare-commit-msg) - Called after receiving the default commit message, just prior to firing up the commit message editor.
+- [pre-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-receive) - This is called on the remote repo just before updating the pushed refs.
+- [commit-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/commit-msg) - Can be used to adjust the message after it has been edited in order to ensure conformity to a standard or to reject based on any criteria.
+- [pre-push](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-push) - Called prior to a push to a remote. In addition to the parameters, additional information, separated by a space is passed in through stdin in the form of "<local ref> <local sha1> <remote ref> <remote sha1>".
+- [pre-auto-gc](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-auto-gc) - Is used to do some checks before automatically cleaning repos. 
+- [pre-rebase](https://github.com/aitemr/awesome-git-hooks/tree/master/pre-rebase) - Called when rebasing a branch. Mainly used to halt the rebase if it is not desirable.
+- [applypatch-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/applypatch-msg) - Can edit the commit message file and is often used to verify or actively format a patch's message to a project's standards.
+- [post-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/post-receive) - This is run on the remote when pushing after the all refs have been updated. It does not take parameters, but receives info through stdin in the form of "<old-value> <new-value> <ref-name>". 
+- [post-rewrite](https://github.com/aitemr/awesome-git-hooks/tree/master/post-rewrite) - This is called when git commands are rewriting already committed data.
 
 ## Soon 🙈
 
-- [pre-applypatch]()
-- [post-applypatch]()
-- [post-commit]()
-- [post-checkout]()
-- [post-merge]()
-- [update]()
-- [post-update]()
+- [pre-applypatch]() - This is actually called after the patch is applied, but before the changes are committed.
+- [post-applypatch]() - This hook is run after the patch is applied and committed.
+- [post-commit]() - Called after the actual commit is made. Because of this, it cannot disrupt the commit.
+- [post-checkout]() - Run when a checkout is called after updating the worktree or after git clone.
+- [post-merge]() - Called after a merge. Because of this, it cannot abort a merge.
+- [update]() - This is run on the remote repo once for each ref being pushed instead of once for each push.
+- [post-update]() - This is run only once after all of the refs have been pushed.
 
 ## Tools
 
