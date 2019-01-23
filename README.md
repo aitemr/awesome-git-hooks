@@ -10,8 +10,6 @@
 
 Git Hooks are scripts that run automatically every time a particular event occurs in a git repository.
 
-Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
-
 ## Contents
 
 - [Useful Git Hooks scripts](#useful-git-hooks-scripts)
