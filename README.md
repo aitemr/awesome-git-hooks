@@ -59,7 +59,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 
 ## Support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new). If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/CONTRIBUTING.md).
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new). If you want to contribute, please read the [guide](https://github.com/aitemr/awesome-git-hooks/blob/master/.github/contributing.md).
 
 ## License
 
