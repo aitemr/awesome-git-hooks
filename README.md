@@ -6,6 +6,7 @@
 - [About](#about)
 - [Useful Git Hooks scripts](#useful-git-hooks-scripts)
 - [Tools](#tools)
+- [Projects](#projects)
 - [Articles](#articles)
 - [Video Tutorials](#video-tutorials)
 - [Support](#support)
@@ -35,6 +36,24 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [git-hooks](https://github.com/icefox/git-hooks/) - A tool to manage project, user, and global Git hooks.
 - [overcommit](https://github.com/brigade/overcommit/) - A fully configurable and extendable Git hook manager.
 
+## Projects 
+
+- [Lolcommits](https://github.com/mroth/lolcommits) - Takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it.
+- [Podmena](https://github.com/bmwant/podmena) - Enhance your commit messages adding random emoji to it.
+- [Hooks](https://www.npmjs.com/package/node-hooks) - is a command line git hook management tool.
+- [Git Hooks Manager](https://github.com/icefox/git-hooks) - A tool to manage project, user, and global Git hooks for multiple Git repositories.
+- [Git::Hooks](https://github.com/gnustavo/Git-Hooks) - A framework for implementing Git (and Gerrit) hooks.
+- [git-pre-commit-hook](https://pypi.org/project/git-pre-commit-hook/) - Hook that blocks bad commits. Useful for Python-development.
+- [App::GitHooks](https://metacpan.org/pod/App::GitHooks) -  A modular and easy to configure git hooks framework, supporting many plugins. 
+- [Jig](https://pythonhosted.org/jig/) - A pre-commit hook on steroids.
+- [GitPHPHooks](https://github.com/wecodemore/GitPHPHooks) - Write your hooks in PHP, manage and organize them on a task and project level. Has an additional Hooks library on GitHub.
+- [Grunt GitHooks](https://github.com/wecodemore/grunt-githooks) - Setup, manage and update your hooks with Grunt. Can be used with all languages, supports templates.
+- [git-hooks-php](https://github.com/BernardoSilva/git-hooks-php) - Git hooks for PHP based projects.
+- [commandbox-githooks](https://github.com/elpete/commandbox-githooks) - Git hooks for CommandBox CFML based projects.
+- [Autohook](https://github.com/nkantar/Autohook) - A very, very small Git hook manager with focus on automation.
+- [hooks4git](https://pypi.org/project/hooks4git/) - A simple, flexible and language agnostic git hook management approach.
+- [Githooks](https://github.com/rycus86/githooks) - Auto-install Git hook, that supports hooks in any language checked into Git and also shared repos.
+
 ## Articles
 
 - [githooks.com](https://githooks.com)
@@ -44,6 +63,12 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Automate your workflow with git hooks
 ](https://medium.com/backticks-tildes/how-to-automate-your-git-workflow-with-git-hooks-c905296c49bc)
 - [Automate your development workflow](https://medium.com/the-andela-way/git-hooks-beautifully-automate-tasks-stages-bfb29f42fea1)
+- [Deploying websites with a Git hook](http://ryanflorence.com/deploying-websites-with-a-tiny-git-hook/) 
+- [The missing Git hooks documentation](https://longair.net/blog/2011/04/09/missing-git-hooks-documentation/)
+- [Git Hooks (Part I): The Basics](http://omerkatz.com/blog/2013/2/15/git-hooks-part-1-the-basics)
+- [Git Hooks (Part II): Implementing Git Hooks using Python](http://omerkatz.com/blog/2013/5/23/git-hooks-part-2-implementing-git-hooks-using-python)
+- [Tips for using Git pre commit hook](https://codeinthehole.com/tips/tips-for-using-a-git-pre-commit-hook/)
+- [Use a boostrap shell script to use Git Hooks in Mac with PowerShell and with IntelliJ](https://wilsonmar.github.io/git-hooks/)
 
 ## Video Tutorials 
 
