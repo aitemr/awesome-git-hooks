@@ -40,7 +40,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 
 - [Lolcommits](https://github.com/mroth/lolcommits) - Takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it.
 - [Podmena](https://github.com/bmwant/podmena) - Enhance your commit messages adding random emoji to it.
-- [Hooks](https://www.npmjs.com/package/node-hooks) - is a command line git hook management tool.
+- [Hooks](https://www.npmjs.com/package/node-hooks) - A command line git hook management tool.
 - [Git Hooks Manager](https://github.com/icefox/git-hooks) - A tool to manage project, user, and global Git hooks for multiple Git repositories.
 - [Git::Hooks](https://github.com/gnustavo/Git-Hooks) - A framework for implementing Git (and Gerrit) hooks.
 - [git-pre-commit-hook](https://pypi.org/project/git-pre-commit-hook/) - Hook that blocks bad commits. Useful for Python-development.
