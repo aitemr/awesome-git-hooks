@@ -2,14 +2,16 @@
 
 > A curated list of awesome [Git hooks](https://git-scm.com/docs/githooks)
 
-Git Hooks are scripts that run automatically every time a particular event occurs in a Git repository.
-
 ## Contents
-
+- [About](#about)
 - [Useful Git Hooks scripts](#useful-git-hooks-scripts)
 - [Tools](#tools)
 - [Articles](#articles)
 - [Support](#support)
+
+## About 
+
+Git Hooks are scripts that run automatically every time a particular event occurs in a Git repository.
 
 ## Useful Git Hooks scripts
 
