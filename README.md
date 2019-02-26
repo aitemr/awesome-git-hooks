@@ -56,19 +56,19 @@ Git Hooks are scripts that run automatically every time a particular event occur
 
 ## Articles
 
-- [githooks.com](https://githooks.com)
 - [Official Documentation](https://git-scm.com/docs/githooks)
+- [Git Hooks (Part I): The Basics](http://omerkatz.com/blog/2013/2/15/git-hooks-part-1-the-basics)
+- [Git Hooks (Part II): Implementing Git Hooks using Python](http://omerkatz.com/blog/2013/5/23/git-hooks-part-2-implementing-git-hooks-using-python)
 - [Atlassian Git Hooks tutorial](https://ru.atlassian.com/git/tutorials/git-hooks)
+- [Tips for using Git pre commit hook](https://codeinthehole.com/tips/tips-for-using-a-git-pre-commit-hook/)
+- [Use a boostrap shell script to use Git Hooks in Mac with PowerShell and with IntelliJ](https://wilsonmar.github.io/git-hooks/)
+- [githooks.com](https://githooks.com)
 - [How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
 - [Automate your workflow with git hooks
 ](https://medium.com/backticks-tildes/how-to-automate-your-git-workflow-with-git-hooks-c905296c49bc)
 - [Automate your development workflow](https://medium.com/the-andela-way/git-hooks-beautifully-automate-tasks-stages-bfb29f42fea1)
 - [Deploying websites with a Git hook](http://ryanflorence.com/deploying-websites-with-a-tiny-git-hook/) 
 - [The missing Git hooks documentation](https://longair.net/blog/2011/04/09/missing-git-hooks-documentation/)
-- [Git Hooks (Part I): The Basics](http://omerkatz.com/blog/2013/2/15/git-hooks-part-1-the-basics)
-- [Git Hooks (Part II): Implementing Git Hooks using Python](http://omerkatz.com/blog/2013/5/23/git-hooks-part-2-implementing-git-hooks-using-python)
-- [Tips for using Git pre commit hook](https://codeinthehole.com/tips/tips-for-using-a-git-pre-commit-hook/)
-- [Use a boostrap shell script to use Git Hooks in Mac with PowerShell and with IntelliJ](https://wilsonmar.github.io/git-hooks/)
 
 ## Video Tutorials 
 
