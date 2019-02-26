@@ -10,11 +10,11 @@ git commit
 
 ## prepare-commit-msg git hooks for:
 
-* [Jira](https://github.com/aitemr/awesome-git-hooks/blob/master/prepare-commit-msg/prepare-commit-msg-jira) - a proprietary issue tracking product developed by Atlassian 
+* [Jira](https://github.com/aitemr/awesome-git-hooks/blob/master/prepare-commit-msg/prepare-commit-msg-jira) - a proprietary issue tracking product developed by Atlassian.
 
 ## support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new).
 
 ## license
 

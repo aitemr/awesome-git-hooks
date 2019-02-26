@@ -11,11 +11,11 @@ git-receive-pack
 
 ## post-receive git hooks for:
 
-* [post-receive-specific-folder](https://github.com/aitemr/awesome-git-hooks/blob/master/post-receive/post-receive-specific-folder) - hook to deploy the code being pushed to production branch to a specific folder
+* [post-receive-specific-folder](https://github.com/aitemr/awesome-git-hooks/blob/master/post-receive/post-receive-specific-folder) - hook to deploy the code being pushed to production branch to a specific folder.
 
 ## support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new).
 
 ## license
 

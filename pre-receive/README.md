@@ -11,11 +11,11 @@ git-receive-pack
 
 ## pre receive git hooks for:
 
-* [Push Ban](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-receive/pre-receive-ban-on-push-to-brancht) - Git Hook for ban on push to master branch
+* [Push Ban](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-receive/pre-receive-ban-on-push-to-brancht) - Git Hook for ban on push to master branch.
 
 ## support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new). 
 
 ## license
 

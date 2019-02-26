@@ -10,11 +10,11 @@ git push
 
 ## pre push git hooks for:
 
-* [pre-push](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-push/pre-push-protect-branches) - Git pre-push hook to prevent force pushing master branch
+* [pre-push](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-push/pre-push-protect-branches) - Git pre-push hook to prevent force pushing master branch.
 
 ## support
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new) 
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/awesome-git-hooks/issues/new). 
 
 ## license
 
