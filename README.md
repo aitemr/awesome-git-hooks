@@ -43,7 +43,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
 - [Automate your workflow with git hooks
 ](https://medium.com/backticks-tildes/how-to-automate-your-git-workflow-with-git-hooks-c905296c49bc)
-- []()
+- [Automate your development workflow](https://medium.com/the-andela-way/git-hooks-beautifully-automate-tasks-stages-bfb29f42fea1)
 
 ## Video Tutorials 
 
