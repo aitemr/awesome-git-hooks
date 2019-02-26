@@ -7,6 +7,7 @@
 - [Useful Git Hooks scripts](#useful-git-hooks-scripts)
 - [Tools](#tools)
 - [Articles](#articles)
+- [Video Tutorials](#video-tutorials)
 - [Support](#support)
 
 ## About 
@@ -42,6 +43,14 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [How To Use Git Hooks To Automate Development and Deployment Tasks](https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks)
 - [Automate your workflow with git hooks
 ](https://medium.com/backticks-tildes/how-to-automate-your-git-workflow-with-git-hooks-c905296c49bc)
+- []()
+
+## Video Tutorials 
+
+- [Introduction to Git Hooks](https://www.youtube.com/watch?v=8-JL6NOTZOw)
+- [Git hooks, practical uses (yes, even on Windows)](https://www.youtube.com/watch?v=fMYv6-SZsSo)
+- [Life’s better with Git hooks](https://www.youtube.com/watch?v=RG26-Iozg70)
+- [Husky and the Git Hooks](https://www.youtube.com/watch?v=EpxkBgd8yq8)
 
 ## Support
 
