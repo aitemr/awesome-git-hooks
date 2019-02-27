@@ -5,7 +5,6 @@
 Git Hooks are scripts that run automatically every time a particular event occurs in a Git repository.
 
 ## Contents
-- [About](#about)
 - [Useful Git Hooks scripts](#useful-git-hooks-scripts)
 - [Tools](#tools)
 - [Projects](#projects)
