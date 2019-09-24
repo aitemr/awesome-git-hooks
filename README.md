@@ -37,6 +37,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Githooks](https://github.com/rycus86/githooks) - Auto-install Git hook, that supports hooks in any language checked into Git and also shared repos.
 - [Hooks](https://www.npmjs.com/package/node-hooks) - A command line git hook management tool.
 - [Lefthook](https://github.com/Arkweid/lefthook) - Fast and powerful Git hooks manager for any type of projects. 
+- [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
 
 ## Projects 
 
