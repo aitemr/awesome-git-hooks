@@ -52,6 +52,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [git-hooks-php](https://github.com/BernardoSilva/git-hooks-php) - Git hooks for PHP based projects.
 - [commandbox-githooks](https://github.com/elpete/commandbox-githooks) - Git hooks for CommandBox CFML based projects.
 - [hooks4git](https://pypi.org/project/hooks4git/) - A simple, flexible and language agnostic git hook management approach.
+- [Commit Colors](https://github.com/sparkbox/commit-colors) - See a color swatch in your terminal every time you author a commit.
 
 ## Articles
 
