@@ -11,7 +11,7 @@ git-receive-pack
 
 ## pre receive git hooks for:
 
-* [Push Ban](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-receive/pre-receive-ban-on-push-to-brancht) - Git Hook for ban on push to master branch.
+* [Push Ban](https://github.com/aitemr/awesome-git-hooks/blob/master/pre-receive/pre-receive-ban-on-push-to-branch) - Git Hook for ban on push to master branch.
 
 ## support
 
