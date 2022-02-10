@@ -6,7 +6,7 @@ changedBranch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 blockedUsers=(junior1 junior2)
 
 if [[ ${blockedUsers[*]} =~ $USER ]]; then
-    if [ $changedBranch == "master" ]; then
+    if [ "$changedBranch" == "master" ]; then
         echo "You are not allowed commit changes in this branch"
         exit 1
     fi

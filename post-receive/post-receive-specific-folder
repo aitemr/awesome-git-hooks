@@ -3,15 +3,15 @@
 target_branch="production"
 working_tree="PATH_TO_DEPLOY"
 
-while read oldrev newrev refname
+while read -r oldrev newrev refname
 do
-    branch=$(git rev-parse --symbolic --abbrev-ref $refname)
-    if [ -n "$branch" ] && [ "$target_branch" == "$branch" ]; then
-    
+    branch=$(git rev-parse --symbolic --abbrev-ref "$refname")
+    if [ -n "$branch" ] && [ "$target_branch" = "$branch" ]; then
+
        GIT_WORK_TREE=$working_tree git checkout $target_branch -f
        NOW=$(date +"%Y%m%d-%H%M")
-       git tag release_$NOW $target_branch
-    
+       git tag "release_$NOW" $target_branch
+
        echo "   /==============================="
        echo "   | DEPLOYMENT COMPLETED"
        echo "   | Target branch: $target_branch"

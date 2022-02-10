@@ -5,9 +5,9 @@
 # $2 -- the branch being rebased (or empty when rebasing the current branch).
 #
 branch="$2"
-[ -n "$branch" ] || branch=`git rev-parse --abbrev-ref HEAD`
+[ -n "$branch" ] || branch=$(git rev-parse --abbrev-ref HEAD)
 lock="branch.${branch}.rebaselock"
-if [ x`git config --bool "$lock"` = xtrue ]; then
+if [ "$(git config --bool "$lock")" = true ]; then
 echo "pre-rebase hook: \"$lock\" is set to true. Refusing to rebase."
 exit 1
 fi

@@ -29,7 +29,7 @@ handle_rewrite() {
     done
   fi
 }
-while read line; do handle_rewrite $line; done
+while read -r line; do handle_rewrite "$line"; done
 
 # TODO:
 #   Print recommended rebase commands for each branch found by
