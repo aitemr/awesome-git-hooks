@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Git Hook for JIRA_TASK_ID
 # Adds to the top of your commit message `JIRA_TASK_ID`, based on the prefix of the current branch `feature/AWG-562-add-linter`
@@ -9,18 +9,18 @@ if [ -z "$BRANCHES_TO_SKIP" ]; then
 fi
 
 COMMIT_FILE=$1
-COMMIT_MSG=$(cat $1)
+COMMIT_MSG=$(cat "$1")
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 JIRA_ID_REGEX="[A-Z0-9]{1,10}-?[A-Z0-9]+"
 JIRA_ID_IN_CURRENT_BRANCH_NAME=$(echo "$CURRENT_BRANCH" | grep -Eo "$JIRA_ID_REGEX")
 JIRA_ID_IN_COMMIT_MESSAGE=$(echo "$COMMIT_MSG" | grep -Eo "$JIRA_ID_REGEX")
 
-if [ ! -z "$JIRA_ID_IN_COMMIT_MESSAGE" ]; then
+if [ -n "$JIRA_ID_IN_COMMIT_MESSAGE" ]; then
   if [ "$JIRA_ID_IN_COMMIT_MESSAGE" != "$JIRA_ID_IN_CURRENT_BRANCH_NAME" ]; then
     echo "Error, your commit message JIRA_TASK_ID='$JIRA_ID_IN_COMMIT_MESSAGE' is not equal to current branch JIRA_TASK_ID='$JIRA_ID_IN_CURRENT_BRANCH_NAME'"
     exit 1
   fi
-elif [ ! -z "$JIRA_ID_IN_CURRENT_BRANCH_NAME" ]; then
-  echo "$JIRA_ID_IN_CURRENT_BRANCH_NAME $COMMIT_MSG" > $COMMIT_FILE
+elif [ -n "$JIRA_ID_IN_CURRENT_BRANCH_NAME" ]; then
+  echo "$JIRA_ID_IN_CURRENT_BRANCH_NAME $COMMIT_MSG" > "$COMMIT_FILE"
   echo "JIRA ID '$JIRA_ID_IN_CURRENT_BRANCH_NAME', matched in current branch name, prepended to commit message. (Use --no-verify to skip)"
 fi

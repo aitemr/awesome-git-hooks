@@ -1,8 +1,8 @@
 #!/bin/bash
 # Prevents force-pushing to master
 
-BRANCH=`git rev-parse --abbrev-ref HEAD`
-PUSH_COMMAND=`ps -ocommand= -p $PPID`
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+PUSH_COMMAND=$(ps -ocommand= -p $PPID)
 PROTECTED_BRANCHES="^(master|dev|release-*|patch-*)"
 FORCE_PUSH="force|delete|-f"
 
