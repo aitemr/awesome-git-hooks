@@ -24,6 +24,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [applypatch-msg](https://github.com/aitemr/awesome-git-hooks/tree/master/applypatch-msg) - Can edit the commit message file and is often used to verify or actively format a patch's message to a project's standards.
 - [post-receive](https://github.com/aitemr/awesome-git-hooks/tree/master/post-receive) - This is run on the remote when pushing after the all refs have been updated. It does not take parameters, but receives info through stdin in the form of `<old-value> <new-value> <ref-name>`. 
 - [post-rewrite](https://github.com/aitemr/awesome-git-hooks/tree/master/post-rewrite) - This is called when git commands are rewriting already committed data.
+- [post-rewrite](https://github.com/aitemr/awesome-git-hooks/tree/master/post-commit) - Called after a successful commit. Useful for triggering notifications, etc.
 
 ## Tools
 
