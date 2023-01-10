@@ -1,0 +1,2 @@
+post-commit hooks:
+- [git-blame-ignore-style-formatting-post-commit-hook](https://github.com/devinrhode2/git-blame-ignore-style-formatting-post-commit-hook) - automatically add `style: foo` commits to `.git-blame-ignore-revs`
