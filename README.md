@@ -46,7 +46,6 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Podmena](https://github.com/bmwant/podmena) - Enhance your commit messages adding random emoji to it.
 - [Git Hooks Manager](https://github.com/icefox/git-hooks) - A tool to manage project, user, and global Git hooks for multiple Git repositories.
 - [Git::Hooks](https://github.com/gnustavo/Git-Hooks) - A framework for implementing Git (and Gerrit) hooks.
-- [git-pre-commit-hook](https://pypi.org/project/git-pre-commit-hook/) - Hook that blocks bad commits. Useful for Python-development.
 - [App::GitHooks](https://metacpan.org/pod/App::GitHooks) -  A modular and easy to configure git hooks framework, supporting many plugins. 
 - [Jig](https://pythonhosted.org/jig/) - A pre-commit hook on steroids.
 - [GitPHPHooks](https://github.com/wecodemore/GitPHPHooks) - Write your hooks in PHP, manage and organize them on a task and project level. Has an additional Hooks library on GitHub.
