@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 target_branch="production"
 working_tree="PATH_TO_DEPLOY"

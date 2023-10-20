@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Prevents force-pushing to master
 
 BRANCH=$(git rev-parse --abbrev-ref HEAD)

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Git Hook for SwiftLint
 # Runs at every commit and checks for an error.

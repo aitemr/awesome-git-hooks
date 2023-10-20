@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Git Hook for ban on push to master branch
 
 changedBranch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')

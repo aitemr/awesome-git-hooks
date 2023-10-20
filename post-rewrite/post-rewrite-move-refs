@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Git "post-rewrite" hook to make local refs move automatically on rewrites.
 set -e -u
 command="$1"
