@@ -31,7 +31,6 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Husky](https://github.com/typicode/husky) - Git hooks made easy.
 - [Komondor](https://github.com/orta/Komondor) - Git Hooks for Swift projects.
 - [Quickhook](https://github.com/dirk/quickhook/) - Faster Git hook (pre-commit, etc.) runner.
-- [git-hooks](https://github.com/icefox/git-hooks/) - A tool to manage project, user, and global Git hooks.
 - [overcommit](https://github.com/brigade/overcommit/) - A fully configurable and extendable Git hook manager.
 - [Grunt GitHooks](https://github.com/wecodemore/grunt-githooks) - Setup, manage and update your hooks with Grunt. Can be used with all languages, supports templates.
 - [Autohook](https://github.com/nkantar/Autohook) - A very, very small Git hook manager with focus on automation.
@@ -44,7 +43,6 @@ Git Hooks are scripts that run automatically every time a particular event occur
 
 - [Lolcommits](https://github.com/mroth/lolcommits) - Takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it.
 - [Podmena](https://github.com/bmwant/podmena) - Enhance your commit messages adding random emoji to it.
-- [Git Hooks Manager](https://github.com/icefox/git-hooks) - A tool to manage project, user, and global Git hooks for multiple Git repositories.
 - [Git::Hooks](https://github.com/gnustavo/Git-Hooks) - A framework for implementing Git (and Gerrit) hooks.
 - [App::GitHooks](https://metacpan.org/pod/App::GitHooks) -  A modular and easy to configure git hooks framework, supporting many plugins. 
 - [Jig](https://pythonhosted.org/jig/) - A pre-commit hook on steroids.
