@@ -5,8 +5,16 @@
 # Example: `Add SwiftLint -> `AWG-562 Add SwiftLint
 
 if [ -z "$BRANCHES_TO_SKIP" ]; then
-  BRANCHES_TO_SKIP=(master develop test)
+  BRANCHES_TO_SKIP='master develop test'
 fi
+
+CURRENT_BRANCH=$(git branch --show-current)
+for BRANCH in $BRANCHES_TO_SKIP; do
+  if [ "$BRANCH" = "$CURRENT_BRANCH" ]; then
+    echo "Info, skipping Jira ID check since current branch is included in the 'BRANCHES_TO_SKIP' variable"
+    exit 0
+  fi
+done
 
 COMMIT_FILE=$1
 COMMIT_MSG=$(cat "$1")
