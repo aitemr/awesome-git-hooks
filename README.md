@@ -39,8 +39,9 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Lefthook](https://github.com/Arkweid/lefthook) - Fast and powerful Git hooks manager for any type of projects. 
 - [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
 - [GitHooksVS](https://github.com/mstranne/GitHooksVS) - A Visual Studio extension for managing Git hooks.
+- [BeLikeNative Git Grammar Hook](https://github.com/theluckystrike/bln-git-grammar-hook) - Pre-commit hook that checks grammar, spelling, and style in commit messages and documentation with 77 local rules.
 
-## Projects 
+## Projects
 
 - [Lolcommits](https://github.com/mroth/lolcommits) - Takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it.
 - [Podmena](https://github.com/bmwant/podmena) - Enhance your commit messages adding random emoji to it.
