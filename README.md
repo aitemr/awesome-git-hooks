@@ -35,6 +35,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Grunt GitHooks](https://github.com/wecodemore/grunt-githooks) - Setup, manage and update your hooks with Grunt. Can be used with all languages, supports templates.
 - [Autohook](https://github.com/nkantar/Autohook) - A very, very small Git hook manager with focus on automation.
 - [Githooks](https://github.com/rycus86/githooks) - Auto-install Git hook, that supports hooks in any language checked into Git and also shared repos.
+- [RepoBoundary](https://github.com/wabybaddouch-arch/repoboundary) - Local CLI guardrail that blocks commits when staged changes touch user-defined protected paths.
 - [Hooks](https://www.npmjs.com/package/node-hooks) - A command line git hook management tool.
 - [Lefthook](https://github.com/Arkweid/lefthook) - Fast and powerful Git hooks manager for any type of projects. 
 - [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
