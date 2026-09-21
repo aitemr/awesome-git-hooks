@@ -39,6 +39,7 @@ Git Hooks are scripts that run automatically every time a particular event occur
 - [Lefthook](https://github.com/Arkweid/lefthook) - Fast and powerful Git hooks manager for any type of projects. 
 - [pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
 - [GitHooksVS](https://github.com/mstranne/GitHooksVS) - A Visual Studio extension for managing Git hooks.
+- [check-docs](https://github.com/ipaulsmith/check-docs) - A shell pre-commit check for broken paths in agent instruction files.
 
 ## Projects 
 
